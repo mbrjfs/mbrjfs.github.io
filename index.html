@@ -1,47 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="UTF-8" />
     <title>明白人讲风水</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <style>
-      .youtube-logo {
-        width: 80px;
-        margin-right: 8px;
-      }
-
-      .main-image {
-        max-width: 70%;
-        height: auto;
-      }
-    </style>
+    <link href="styles.css" rel="stylesheet" />
   </head>
-  <body class="container py-5">
-    <h1 class="mb-4">欢迎来到 明白人讲风水</h1>
-    <h2 class="mb-4">网站建设中...</h2>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">明白人讲风水</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#intro">简介</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">服务</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">联系方式</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <p>
-      <a
-        href="https://www.youtube.com/@mbrjfs"
-        target="_blank"
-        class="d-inline-flex align-items-center text-decoration-none"
-      >
+    <!-- Main Content -->
+    <div class="container py-5">
+      <h1 class="mb-4 text-center">明白人讲风水</h1>
+      <h2 class="mb-4 text-center">网站建设中...</h2>
+
+      <p class="mb-3 text-center">
+        <a
+          href="https://www.youtube.com/@mbrjfs"
+          target="_blank"
+          class="d-inline-flex align-items-center text-decoration-none youtube-link"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+            alt="YouTube Logo"
+            class="youtube-logo"
+          />
+          订阅频道 @mbrjfs
+        </a>
+      </p>
+
+      <img
+        src="resources/intro.jpg"
+        alt="Intro Image"
+        class="main-image mx-auto d-block"
+      />
+
+      <div id="intro" class="section-title">个人简介</div>
+      <p>本人</p>
+
+      <div id="services" class="section-title">专业服务</div>
+      <p>
+        <strong>1. 个人服务：</strong><br />
+        阳宅选址、别墅布局设计、墓地选址、个人流年分析、化解灾煞等风水服务。
+      </p>
+      <p>
+        <strong>2. 商企服务：</strong><br />
+        店铺风水、公司风水设计与调整、商标八字命名、外局景观风水设计，风水培训与咨询等。
+      </p>
+      <p>
+        <strong>3. 重要仪式指导：</strong><br />
+        乔迁、开张、开业、安床、动土等择日择时与风水指导。
+      </p>
+
+      <div id="contact" class="section-title">联系方式</div>
+      <div class="contact-icon">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
-          alt="YouTube Logo"
-          class="youtube-logo"
+          src="https://img.icons8.com/color/48/000000/weixing.png"
+          alt="WeChat Logo"
+          class="wechat-logo"
         />
-        <span class="fw-bold">@mbrjfs</span>
-      </a>
-    </p>
+        微信: PLXYZFS
+      </div>
+      <br />
+      <div class="contact-icon">
+        <img
+          src="https://img.icons8.com/fluency/48/000000/gmail-new.png"
+          alt="Email Logo"
+          class="email-logo"
+        />
+        邮箱: zym6658@gmail.com
+      </div>
+    </div>
 
-    <img
-      src="resources/intro.jpg"
-      alt="Intro Image"
-      class="main-image img-fluid mt-3"
-    />
+    <footer class="text-center">
+      <small>版权所有 &copy; 明白人讲风水 mbrjfs</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
