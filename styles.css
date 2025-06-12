@@ -48,3 +48,8 @@ footer {
 .youtube-link span {
   cursor: pointer;
 }
+
+.logo {
+  width: auto;
+  height: 40px;
+}
