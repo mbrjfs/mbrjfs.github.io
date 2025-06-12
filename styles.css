@@ -4,13 +4,6 @@
   margin-bottom: 20px;
 }
 
-.youtube-link {
-  font-size: 1.25rem;
-  color: red;
-  font-weight: bold;
-  cursor: pointer;
-}
-
 .youtube-logo {
   width: 80px;
   margin-right: 8px;
@@ -38,4 +31,20 @@ footer {
   display: inline-flex;
   align-items: center;
   margin-bottom: 0.5rem;
+}
+
+.youtube-link {
+  font-size: 1.25rem;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.youtube-link img {
+  cursor: pointer;
+}
+
+.youtube-link span {
+  cursor: pointer;
 }
